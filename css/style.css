@@ -1,0 +1,514 @@
+*{
+	box-sizing: border-box;
+	font-family: Myriad Pro, sans-serif;
+}
+
+.section-1 {
+	min-height: 690px;
+	background-color: #f4f0f0;
+	padding-top: 30px;
+}
+header {
+	min-height: 90px;
+	background-color: #313030;
+	text-align: center;
+}
+.nav-text {
+	text-transform: uppercase;
+	line-height: 90px;
+	text-decoration: none;
+	color: #e0e0e0;
+	font-size: 14px;
+	padding: 37px;
+}
+.nav-text:hover {
+	text-transform: uppercase;
+	line-height: 90px;
+	text-decoration: none;
+	color: #e0e0e0;
+	background-color: #ff3f40;
+}
+.main-content {
+	margin-top: 85px;
+	width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+}
+.main-row {
+	width: 100%; 
+	display: flex;
+}   
+.header-text {
+	text-transform: uppercase;
+	line-height: 1.1;
+	font-size: 60px;
+	font-weight: 700;
+ margin-bottom: 30px; 
+	display: flex;
+	width: 100%;
+}
+/* медиазапрос */
+@media (max-width: 600px) {
+	.header-text {
+	text-transform: uppercase;
+	line-height: 1.1;
+	font-size: 20px;
+	font-weight: 700;
+ margin-bottom: 30px; 
+	display: flex;
+	width: 100%;
+}
+}
+.body-text {
+	width: 100%;
+	font-size: 16px;
+	line-height: 30px;
+ display: flex;
+}
+.main-content-text {
+	display: block;
+}
+
+.main-content-video img {
+	margin-left: 25px;
+}
+.video-image {
+	width: 100%;
+	position: relative;
+}
+.video-image img {
+width: 100%;
+}
+.video-icon {
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	top: 50%;
+	margin-top: -35px;
+}
+.contact-button {
+	height: 60px;
+	width: 228px;
+	background-color: #ff2d2d;
+	border-radius: 10px;
+margin: 20px 0;
+color: #ffffff;
+font-size: 18px;
+}
+.provides {
+	min-height: 690px;
+	padding-top: 111px;
+}
+.provides .container {
+	border-bottom: 2px solid #ececec;
+	padding-bottom: 152px;
+} 
+.provide-main {
+justify-content: space-between;
+}
+.provide-left{
+width: 45%;
+display: inline-block;
+vertical-align: top;
+margin-right: 105px;
+}
+.provide-right {
+width: 45%;
+display: inline-block;
+vertical-align: top;
+}
+.provide-module {
+	width: 45%; 
+display: inline-block; 
+margin-right: 20px;
+}
+/* медиазапрос  */
+@media (max-width: 1200px) {
+.provide-right {
+width: 95%;
+display: inline-block;
+}
+}
+.provide-image {
+	margin-bottom: 30px;
+}
+.provide-text-header {
+	font-size: 24px;
+	font-weight: 900px;
+}
+.provide-text {
+	font-size: 16px;
+}
+.main-section-text {
+	font-size: 42px;
+	font-weight: 700px;
+	text-transform: uppercase;
+}
+.Learn-More-button {
+	margin-top: 20px;
+	height: 60px;
+	width: 228px;
+	background-color: #ffffff;
+	border-radius: 10px;
+color: #ff2d2d;
+font-size: 18px;
+border: 2px solid;
+margin-bottom: 30px;
+}
+.feature {
+	min-height: 1023px;
+}
+.feachure-header {
+	text-align: center;
+	margin-top: 110px;
+}
+.feachure-header h2 {
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.feachure-header p {
+	font-size: 16px;
+}
+.feachure-header-line {
+	width: 24px;
+	border-top: 2px solid #ff2d2d;
+}
+.feachure-menu {
+	margin-top: 55px;
+	text-transform: uppercase;
+	font-size: 17px;
+font-weight: 700;
+margin-bottom: 50px;
+}
+.feachure-menu a {
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+}
+.feachure-menu a:hover {
+	text-decoration: none;
+	color: #ff6565;
+}
+.feachure-image-block img{
+	width: 100%;
+	margin-right: 40px;
+	margin-bottom: 35px;
+}
+.team {
+min-height: 700px;
+}
+.team-body {
+	display: block;
+	width: 100%;
+}
+.team-text {
+	display: block;
+	margin-left: 15px;
+}
+.team-header {
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	display: block;
+}
+.team-header-line {
+	width: 120px; 
+	border-top: 2px solid #ff2d2d;
+	margin-left: 15px;
+	margin-top: 50px;
+	display: block;
+/* background-color: gray; */
+}
+.main-team-foto {
+	width: 100%;
+	max-width: 255px;
+	margin-top: 80px;
+	display: inline-block;
+	vertical-align: top;
+}
+.main-team-foto img {
+	width: 100%;
+	
+	display: inline-block;
+}
+.team-foto {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.main-team-description {
+	display: inline-block;
+	max-width: 780px;
+	margin-top: 80px;
+	vertical-align: top;
+	margin-left: 30px;
+}
+.teamref-string {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+.teamref {
+	display: inline-block;
+}
+.main-team-description img {
+	width: 160px;
+	margin-right: 15px;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.main-team-description h3 {
+	margin-bottom: 25px;
+	margin-left: 15px;
+	text-transform: uppercase;
+}
+.main-team-description p {
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+
+.main-team-description a {
+	margin-right: 30px;
+	color: #000;
+}
+.signed-foto {
+	position: relative;
+	display: inline-block;
+}
+.unsigned-foto {
+	display: inline-block;
+}
+.signed {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	text-transform: uppercase;
+	text-align: center;
+	height: 38px;
+	width: 160px;
+	background-color: #7a786e;
+	color: #fff;
+	text-align: center;
+	line-height: 38px;
+}
+.subscribe {
+	min-height: 515px;
+	background-color: #f5f0dd;
+}
+.subscribe-body {
+	text-align: center;
+	padding-top: 115px;
+}
+.subscribe-text {
+	color: #fff;
+	font-size: 16pt;	
+	margin-bottom: 65px;
+}
+.subscribe-header {
+	color: #fff;
+	font-size: 42pt;
+	margin-bottom: 45px;
+}	
+.input-form-text {
+	height: 80px;
+ width: 525px;
+	border-radius: 10px;
+	padding-left: 35px;
+	font-size: 16pt;	
+	margin-bottom: 20px;
+	border: none;
+}
+/* медиазапрос */
+@media (max-width: 570px) {
+	.input-form-text {
+width: 300px;
+}
+}
+.input-form-button {
+	color: #fff;
+ text-transform: uppercase;
+	background-color: #ff2d2d;
+ height: 80px;
+ width: 215px;
+ border-radius: 10px;
+ margin-left: 20px;
+ border: none;
+}
+.contact {
+	min-height: 990px;
+	padding-top: 110px;
+	position: relative;
+}
+.contact-body {
+	
+}
+.contact-header {
+	text-transform: uppercase;
+	font-size: 42px;	
+	font-weight: 700;
+	margin-bottom: 40px;
+}
+.contact-red-line {
+	border-top: 2px solid #ff2d2d;
+	width: 130px;
+	height: 75px;
+	margin-top: 50px;
+}
+.contact-form-text {
+	height: 70px;
+	width: 338px;
+	margin-right: 40px;
+	background-color: #e5e5e5;
+	border-radius: 10px;
+	padding-left: 30px;
+	margin-bottom: 40px;
+}
+.contact-text-area {
+	display: block;
+	padding-top: 25px;
+	background-color: #e5e5e5;
+	border-radius: 10px;
+	padding-left: 25px;
+	margin-bottom: 40px;
+}
+.contact-form-button {
+width: 720px;
+height: 70px;
+color: #fff;
+text-transform: uppercase;
+background-color: #ff2d2d;
+border-radius: 10px;
+}
+.contact-info {
+	position: absolute;
+	width: 575px;
+	height: 485px;
+	background-color: #2d2d2d;
+	right: 0;
+	bottom: 94px;
+	color: #fff;
+	padding: 150px 0 0 90px;
+}
+.contact-info-header {
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+.contact-info-tel {
+	margin-top: 20px;
+}
+.contact-info-mail {
+	margin-top: 45px;
+	color: #fff;
+	text-decoration: none;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #313030;
+	min-height: 100px;
+	padding: 40px 10% 0 10%;
+}
+footer p {
+	color: white;
+	margin-bottom: 15px;
+}
+footer a {
+	margin-left: 15px;
+}
+	/* медиазапросs */
+	@media (max-width: 1510px) {
+	.contact-info {
+	position: absolute;
+	width: 575px;
+	height: 485px;
+	background-color: #2d2d2d;
+	left: 0;
+	top: 950px;
+	color: #fff;
+	padding: 150px 0 0 90px;
+}
+.contact {
+	min-height: 1500px;
+	padding-top: 110px;
+	position: relative;
+}
+}
+ 	@media (max-width: 1000px) {
+.contact-info {
+position: absolute;
+width: 575px;
+height: 485px;
+background-color: #2d2d2d;
+left: 0;
+top: 1090px;
+color: #fff;
+padding: 150px 0 0 90px;
+}
+.contact {
+min-height: 2000px;
+padding-top: 110px;
+position: relative;
+}
+} 
+@media (max-width: 780px) {
+.contact-info {
+position: absolute;
+width: 575px;
+height: 485px;
+background-color: #2d2d2d;
+left: 0;
+top: 1100px;
+color: #fff;
+padding: 150px 0 0 90px;
+}
+.contact {
+min-height: 1600px;
+padding-top: 110px;
+position: relative;
+}
+.contact-form-text {
+	height: 70px;
+	width: 250px;
+	margin-right: 40px;
+	background-color: #e5e5e5;
+	border-radius: 10px;
+	padding-left: 30px;
+	margin-bottom: 40px;
+}
+.contact-text-area {
+	width: 250px;
+	display: block;
+	padding-top: 25px;
+	background-color: #e5e5e5;
+	border-radius: 10px;
+	padding-left: 25px;
+	margin-bottom: 40px;
+}
+.contact-form-button {
+width: 250px;
+height: 70px;
+color: #fff;
+text-transform: uppercase;
+background-color: #ff2d2d;
+border-radius: 10px;
+}
+} 
+@media (max-width: 620px) {
+	.contact-info {
+position: absolute;
+width: 300px;
+height: 300px;
+background-color: #2d2d2d;
+left: 0;
+top: 1250px;
+color: #fff;
+padding: 50px 0 0 15px;
+}
+.contact {
+min-height: 1650px;
+padding-top: 110px;
+position: relative;
+}
+}
